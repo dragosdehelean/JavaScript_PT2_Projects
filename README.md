@@ -7,4 +7,4 @@ Trainer: @Dragos Dehelean
 * [Luca](https://github.com/Margasoiu-Luca/Javascript) 
 * [Alex](https://github.com/alexandrusoare/test_repo)
 * [Andrei](https://github.com/ctrlAndrei/JavaScript-Projects)
-* [Rares](https://github.com/Raresstefan/TestRep.git)
+* [Rares](https://github.com/Raresstefan/TestRepo.git)
