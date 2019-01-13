@@ -1,4 +1,4 @@
-# Projects for JavaScript Course 2018 (PT1)
+# Projects for JavaScript Course 2018 (PT2)
 ## Step IT Academy, Bucharest 
 Trainer: @Dragos Dehelean
 
