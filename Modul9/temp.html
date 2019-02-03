@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <style>
+      #progressBg {
+        width: 100%;
+        background-color: gray;
+      }
+
+      #progressBar {
+        width: 0%;
+        height: 30px;
+        line-height: 2em;
+        background-color: purple;
+        text-align: center;
+        color: white;
+      }
+
+      .center {
+        display: table;
+        margin: 0 auto;
+        width: 1024px;
+      }
+
+      #butonStart {
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-size: 18px;
+        display: table;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="center">
+      <div id="progressBg"><div id="progressBar">0%</div></div>
+      <button onclick="start()" id="butonStart">Start</button>
+    </div>
+
+    <script>
+      var bar = document.getElementById("progressBar");
+      var viteza, width;
+
+      function start() {
+        width = 0;
+        viteza = setInterval(procent, 100);
+
+        function procent() {
+          if (width >= 50) {
+            clearInterval(viteza);
+          } else {
+            width++;
+            bar.style.width = width + "%";
+            bar.innerHTML = width + "%";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -7,5 +7,6 @@ Trainer: @Dragos Dehelean
 * [Luca](https://github.com/Margasoiu-Luca/Javascript) 
 * [Alex](https://github.com/alexandrusoare/Javascript)
 * [Andrei](https://github.com/ctrlAndrei/JavaScript-Projects)
-* [Rares](https://github.com/Raresstefan/TestRepo)
+* [Rares](https://github.com/Raresstefan/DogSelector)
 * [Razvan](https://github.com/ionutrzv01/dog)
+* [Stefan](https://github.com/Fefy123/Proiecte-IT)
